@@ -869,16 +869,16 @@
         <translation>Użyj 16 oddzielnych masternodów</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 DIN za zanonimizowanie 1000 DIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 DIN za zanonimizowanie 5000 DIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 DIN za zanonimizowanie 1000 DIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 DIN za zanonimizowanie 5000 DIN</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
-        <translation>0.1 DIN za każde 1000 DIN, które zanonimizujesz.</translation>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
+        <translation>0.1 DIN za każde 5000 DIN, które zanonimizujesz.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -4057,8 +4057,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Project do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 1000 DIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 5000 DIN.</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>

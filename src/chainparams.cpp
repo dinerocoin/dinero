@@ -73,17 +73,17 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 350400; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
-        consensus.nMasternodePaymentsStartBlock = 1000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
-        consensus.nMasternodePaymentsIncreaseBlock = 158000; // actual historical value
-        consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
+        consensus.nSubsidyHalvingInterval = 350400; // Note: actual number of blocks per calendar year with DGW v3 is ~350400 (for example 449750 - 249050)
+        consensus.nMasternodePaymentsStartBlock = 960; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nMasternodePaymentsIncreaseBlock = 961; // actual  value
+        consensus.nMasternodePaymentsIncreasePeriod = 960*7; // 6,760 - actual  value
         consensus.nInstantSendKeepLock = 24;
-        consensus.nBudgetPaymentsStartBlock = 81000; // actual historical value
-        consensus.nBudgetPaymentsCycleBlocks = 27000; // ~(60*24*30)/1.6, actual number of blocks per month is 200700 / 12 = 16725
+        consensus.nBudgetPaymentsStartBlock = 81000; // actual value
+        consensus.nBudgetPaymentsCycleBlocks = 27000; // ~(60*24*30)/1.6, actual number of blocks per month is 350400 / 12 = 29200
         consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nBudgetProposalEstablishingTime = 60*60*24;
         consensus.nSuperblockStartBlock = 162000; // The block at which 12.1 goes live (end of final 12.0 budget cycle)
-        consensus.nSuperblockCycle = 27000; // ~(60*24*30)/2.6, actual number of blocks per month is 200700 / 12 = 16725
+        consensus.nSuperblockCycle = 27000; // ~(60*24*30)/1.6, actual number of blocks per month is 350400 / 12 = 29200
         consensus.nGovernanceMinQuorum = 10;
         consensus.nGovernanceFilterElements = 20000;
         consensus.nMasternodeMinimumConfirmations = 15;

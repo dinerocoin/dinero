@@ -869,15 +869,15 @@
         <translation>Benutze 16 separate Masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 DIN, um 1000 DIN zu anonymisieren</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 DIN, um 5000 DIN zu anonymisieren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 DIN, um 1000 DIN zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 DIN, um 5000 DIN zu anonymisieren</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
         <translation>0,1 DIN pro 1000 zu anonymisierende Dinero.</translation>
     </message>
     <message>
@@ -4076,8 +4076,8 @@ Dies kann passieren, wenn einige Dinero aus ihrer Wallet bereits ausgegeben wurd
         <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 DIN sind.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 5000 DIN sind.</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
@@ -4677,8 +4677,8 @@ Dinero Core wird heruntergefahren.</translation>
         <translation>Für diese Transaktion konnten nicht genug mit PrivateSend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit PrivateSend gestückelte Beträge gefunden werden, die ungleich 1000 DIN sind.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit PrivateSend gestückelte Beträge gefunden werden, die ungleich 5000 DIN sind.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

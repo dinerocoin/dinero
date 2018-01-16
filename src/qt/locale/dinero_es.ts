@@ -876,16 +876,16 @@ Dirección: %4
         <translation>Usar 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>Esta es la opción más rápida y anonimizar 1000 DIN costará alrededor de 0.025 DIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>Esta es la opción más rápida y anonimizar 5000 DIN costará alrededor de 0.025 DIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>Esta opción es moderadamente rápida y anonimizar 1000 DIN costará alrededor de 0.05 DIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>Esta opción es moderadamente rápida y anonimizar 5000 DIN costará alrededor de 0.05 DIN</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
-        <translation>0.1 DIN por cada 1000 DIN que anonimice.</translation>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
+        <translation>0.1 DIN por cada 5000 DIN que anonimice.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -3390,8 +3390,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>No se pueden localizar fondos denominados de Darksend suficientes para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>No se pueden localizar fondos no denominados de Darksend suficientes para esta transacción que no sean iguales a 1000 DIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>No se pueden localizar fondos no denominados de Darksend suficientes para esta transacción que no sean iguales a 5000 DIN.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3735,8 +3735,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Dinero" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>No se pueden localizar fondos suficientes para esta transacción que no sean iguales a 1000 DIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>No se pueden localizar fondos suficientes para esta transacción que no sean iguales a 5000 DIN.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

@@ -1098,18 +1098,18 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
-        <translation>0.1 DIN per 1000 DIN you anonymize.</translation>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
+        <translation>0.1 DIN per 5000 DIN you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -5264,8 +5264,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -6014,8 +6014,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DIN.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 DIN.</translation>
     </message>
     <message>
         <location line="+6"/>

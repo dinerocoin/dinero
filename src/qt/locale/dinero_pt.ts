@@ -861,27 +861,27 @@ Endereço: %4
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DIN</source>
-        <translation>Usar 2 masternodes distintos para misturar os fundos até 1000DRK</translation>
+        <translation>Usar 2 masternodes distintos para misturar os fundos até 1000DIN</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DIN</source>
-        <translation>Usar 8 masternodes distintos para misturar os fundos até 1000DRK</translation>
+        <translation>Usar 8 masternodes distintos para misturar os fundos até 1000DIN</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Usar 16 masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>Esta opção é a mais rápida e irá custar cerca de ~0.025 DIN para anonimizar 1000 DIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>Esta opção é a mais rápida e irá custar cerca de ~0.025 DIN para anonimizar 5000 DIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>Esta opção é relativamente rápida e irá custar cerca de ~0.05 DIN para anonimizar 1000 DIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>Esta opção é relativamente rápida e irá custar cerca de ~0.05 DIN para anonimizar 5000 DIN</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
-        <translation>0.1 DIN por cada 1000 DIN a anonimizar.</translation>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
+        <translation>0.1 DIN por cada 5000 DIN a anonimizar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -3374,7 +3374,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Não foi possível localizar fundos Darksend denominados suficientes para esta transacção.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
         <translation>Não foi possível localizar fundos Darksend não denominados suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
     </message>
     <message>
@@ -3638,7 +3638,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software criptográfico escrito por Eric Young e software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
         <translation>Não foi possível localizar fundos suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
     </message>
     <message>

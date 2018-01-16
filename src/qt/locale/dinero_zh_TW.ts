@@ -861,15 +861,15 @@
         <translation>使用16個獨立的主節點</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
         <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1000達世幣的費用</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
         <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1000達世幣的費用</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
         <translation>每1000達世幣耗費0.1達世幣作為匿名處理費用</translation>
     </message>
     <message>
@@ -4025,8 +4025,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit 軟體 &lt;https://www.openssl.org/&gt;, 和由 Eric Young 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>在本次交易中，無法找到不等於 1000 DIN 的足夠資金用。</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>在本次交易中，無法找到不等於 5000 DIN 的足夠資金用。</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4525,8 +4525,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>在本之交易中，無法找到足夠的匿名發送已除名資金。</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>在本次交易中，無法找到不等於 1000 DIN的足夠未除名資金進行匿名發送。</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>在本次交易中，無法找到不等於 5000 DIN的足夠未除名資金進行匿名發送。</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

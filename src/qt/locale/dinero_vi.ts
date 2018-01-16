@@ -869,16 +869,16 @@
         <translation>Sử dụng 16 masternode khác nhau</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 DIN để ẩn danh 1000 DIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 DIN để ẩn danh 5000 DIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 DIN để ẩn danh 1000 DIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 DIN để ẩn danh 5000 DIN</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
-        <translation>0.1 DIN cho mỗi 1000 DIN bạn muốn ẩn danh.</translation>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
+        <translation>0.1 DIN cho mỗi 5000 DIN bạn muốn ẩn danh.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -4073,8 +4073,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Sản phẩm này có kèm theo phần mềm được phát triển bởi dự án OpenSSL để sử dụng các công cụ OpenSSL &lt;https://www.openssl.org/&gt; và phần mềm mã hoá được viết bởi Eric Young và phần mềm UPnP được viết bởi Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 DIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 5000 DIN.</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
@@ -4673,8 +4673,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Không tìm đủ nguồn tiền PrivateSend denominated cho giao dịch này.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Không thể tìm thấy đủ nguồn chưa phân mệnh giá PrivateSend cho giao dịch này mà nó không bằng 1000 DIN.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Không thể tìm thấy đủ nguồn chưa phân mệnh giá PrivateSend cho giao dịch này mà nó không bằng 5000 DIN.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

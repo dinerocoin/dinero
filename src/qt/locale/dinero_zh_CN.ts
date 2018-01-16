@@ -876,15 +876,15 @@ Address: %4
         <translation>使用16个独立主节点</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
         <translation>此选项为最快速度，需要支付0.025达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
         <translation>此选项为一般速度，需要支付0.05达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
         <translation>0.1达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
@@ -3344,11 +3344,11 @@ https://www.transifex.com/projects/p/dinero/</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>无法找到足够的已匿名化资金来完成交易,不足1000 DIN.</translation>
+        <translation>无法找到足够的已匿名化资金来完成交易,不足5000 DIN.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>无法找到足够的未匿名化资金来完成交易,不足1000 DIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>无法找到足够的未匿名化资金来完成交易,不足5000 DIN.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3591,8 +3591,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>此产品包括了由OpenSSL Project所开发的OpenSSL Toolkit 软件&lt;https://www.openssl.org/&gt;, 和由Eric Young 编写的加密软件, 以及由Thomas Bernard 编写的UPnP软件.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>无法找到足够的资金完成交易,不足1000 DIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>无法找到足够的资金完成交易,不足5000 DIN.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

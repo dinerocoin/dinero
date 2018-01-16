@@ -869,16 +869,16 @@
         <translation>Использовать 16 отдельных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
-        <translation>Это самый быстрый вариант, анонимизация 1000 DIN будет стоить вам примерно 0.025 DIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
+        <translation>Это самый быстрый вариант, анонимизация 5000 DIN будет стоить вам примерно 0.025 DIN</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
-        <translation>Это относительно быстрый вариант, анонимизация 1000 DIN будет стоить вам примерно 0.05 DIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
+        <translation>Это относительно быстрый вариант, анонимизация 5000 DIN будет стоить вам примерно 0.05 DIN</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
-        <translation>0.1 DIN за каждые анонимизированные 1000 DIN.</translation>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
+        <translation>0.1 DIN за каждые анонимизированные 5000 DIN.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -4073,7 +4073,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Этот продукт включает ПО, разработанное проектом OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DIN.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 5000 DIN.</source>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции средств, отличающихся от 1000DRK.</translation>
     </message>
     <message>
@@ -4673,8 +4673,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции номиналов PrivateSend.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Не удалось обнаружить достаточных для выполнения этой транзакции неденоминированных средств, отличающихся от 1000 DIN.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Не удалось обнаружить достаточных для выполнения этой транзакции неденоминированных средств, отличающихся от 5000 DIN.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

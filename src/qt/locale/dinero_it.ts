@@ -845,15 +845,15 @@ Indirizzo: %4
         <translation>Usa 16 separati masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 1000 DIN</source>
+        <source>This option is the quickest and will cost about ~0.025 DIN to anonymize 5000 DIN</source>
         <translation>Questa opzione è la più veloce e ti costerà ~0.025DRK circa per anonimizzare 1000DRK</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 1000 DIN</source>
+        <source>This option is moderately fast and will cost about 0.05 DIN to anonymize 5000 DIN</source>
         <translation>Questa opzione è moderatamente veloce e costerà 0.05DRK circa per anonimizzare 1000DRK</translation>
     </message>
     <message>
-        <source>0.1 DIN per 1000 DIN you anonymize.</source>
+        <source>0.1 DIN per 5000 DIN you anonymize.</source>
         <translation>0.1DRK ogni 1000DRK anonimizzati.</translation>
     </message>
     <message>
@@ -3228,8 +3228,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Impossibile trovare fondi sufficienti Darksend denominati per questa transazione.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DIN.</source>
-        <translation>Impossibile trovare un numero sufficiente di non denominati fondi Darksend per questa operazione che non sono uguali a 1000 DIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 5000 DIN.</source>
+        <translation>Impossibile trovare un numero sufficiente di non denominati fondi Darksend per questa operazione che non sono uguali a 5000 DIN.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
