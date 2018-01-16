@@ -1,0 +1,6 @@
+usr/local/bin/dinero-qt usr/bin
+share/pixmaps/dinero32.xpm usr/share/pixmaps
+share/pixmaps/dinero16.xpm usr/share/pixmaps
+share/pixmaps/dinero128.png usr/share/pixmaps
+debian/dinero-qt.desktop usr/share/applications
+debian/dinero-qt.protocol usr/share/kde4/services/

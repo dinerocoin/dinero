@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dinero
+Comment=Dinero P2P Cryptocurrency
+Comment[fr]=Dinero, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dinero, eşten eşe kriptografik sanal para birimi
+Exec=dinero-qt %u
+Terminal=false
+Type=Application
+Icon=dinero128
+MimeType=x-scheme-handler/dinero;
+Categories=Office;Finance;

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/dinero_bg.qm</file>
+        <file alias="de">locale/dinero_de.qm</file>
+        <file alias="en">locale/dinero_en.qm</file>
+        <file alias="es">locale/dinero_es.qm</file>
+        <file alias="fi">locale/dinero_fi.qm</file>
+        <file alias="fr">locale/dinero_fr.qm</file>
+        <file alias="it">locale/dinero_it.qm</file>
+        <file alias="ja">locale/dinero_ja.qm</file>
+        <file alias="pl">locale/dinero_pl.qm</file>
+        <file alias="pt">locale/dinero_pt.qm</file>
+        <file alias="ru">locale/dinero_ru.qm</file>
+        <file alias="sk">locale/dinero_sk.qm</file>
+        <file alias="sv">locale/dinero_sv.qm</file>
+        <file alias="vi">locale/dinero_vi.qm</file>
+        <file alias="zh_CN">locale/dinero_zh_CN.qm</file>
+        <file alias="zh_TW">locale/dinero_zh_TW.qm</file>
+    </qresource>
+</RCC>
