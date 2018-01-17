@@ -3191,7 +3191,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Dxxx Core developers</source>
+        <source>The Dash Core developers</source>
         <translation>Разработчики Dinero Core</translation>
     </message>
 </context>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Dxxx Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Dxxx Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>

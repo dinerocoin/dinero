@@ -3175,7 +3175,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Deweloperzy Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Dxxx Core developers</source>
+        <source>The Dash Core developers</source>
         <translation>Deweloperzy Dinero Core</translation>
     </message>
 </context>
@@ -4129,7 +4129,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Dxxx Core Developers</source>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
         <translation>Prawa autorskie (C) 2014-%i deweloperzy Dinero</translation>
     </message>
     <message>

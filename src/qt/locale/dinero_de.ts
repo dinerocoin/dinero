@@ -3194,7 +3194,7 @@ Dies kann passieren, wenn einige Dinero aus ihrer Wallet bereits ausgegeben wurd
         <translation>Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>The Dxxx Core developers</source>
+        <source>The Dash Core developers</source>
         <translation>Die "Dinero Core"-Entwickler</translation>
     </message>
 </context>
@@ -4148,7 +4148,7 @@ Dies kann passieren, wenn einige Dinero aus ihrer Wallet bereits ausgegeben wurd
         <translation>Copyright (C) 2009-%i Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Dxxx Core Developers</source>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
         <translation>Copyright (C) 2014-%i Die "Dinero Core"-Entwickler</translation>
     </message>
     <message>

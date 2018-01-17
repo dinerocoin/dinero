@@ -333,7 +333,7 @@ QT_TRANSLATE_NOOP("dinero-core", "Connect to KeePassHttp on port <port> (default
 QT_TRANSLATE_NOOP("dinero-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("dinero-core", "Connection options:"),
 QT_TRANSLATE_NOOP("dinero-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("dinero-core", "Copyright (C) 2014-%i The Dxxx Core Developers"),
+QT_TRANSLATE_NOOP("dinero-core", "Copyright (C) 2014-%i The Dash Core Developers"),
 QT_TRANSLATE_NOOP("dinero-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("dinero-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("dinero-core", "Debugging/Testing options:"),

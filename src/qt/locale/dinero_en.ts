@@ -4138,8 +4138,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Dxxx Core developers</source>
-        <translation>The Dxxx Core developers</translation>
+        <source>The Dash Core developers</source>
+        <translation>The Dash Core developers</translation>
     </message>
 </context>
 <context>
@@ -5354,8 +5354,8 @@ https://www.transifex.com/projects/p/dinero/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Dxxx Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Dxxx Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
         <location line="+14"/>

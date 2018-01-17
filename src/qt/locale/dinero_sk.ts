@@ -2964,7 +2964,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Dxxx Core developers</source>
+        <source>The Dash Core developers</source>
         <translation>Vývojári Dinero Core</translation>
     </message>
 </context>
@@ -3834,7 +3834,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Dxxx Core Developers</source>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
         <translation>Autorské práva (C) 2014-%i Vývojári jadra Dinero</translation>
     </message>
     <message>

@@ -2140,7 +2140,7 @@ https://www.transifex.com/projects/p/dinero/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Dxxx Core developers</source>
+        <source>The Dash Core developers</source>
         <translation>Dinero Core-utvecklarna</translation>
     </message>
     <message>
