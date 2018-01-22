@@ -1,5 +1,5 @@
 ---
-name: "dinero-raspberry-0.12"
+name: "dinero-raspberry-1.0"
 enable_cache: true
 suites:
 - "precise"

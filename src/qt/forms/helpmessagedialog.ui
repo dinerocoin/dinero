@@ -76,7 +76,7 @@
         <bool>false</bool>
        </property>
        <property name="pixmap">
-        <pixmap resource="../dinero.qrc">:/images/drkblue/about</pixmap>
+        <pixmap resource="../dinero.qrc">:/images/default/about</pixmap>
        </property>
        <property name="scaledContents">
         <bool>false</bool>

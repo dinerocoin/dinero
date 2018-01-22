@@ -1,5 +1,5 @@
 ---
-name: "dinero-osx-0.12"
+name: "dinero-osx-1.0"
 enable_cache: true
 suites:
 - "trusty"

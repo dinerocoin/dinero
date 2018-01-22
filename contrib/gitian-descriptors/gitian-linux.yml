@@ -1,5 +1,5 @@
 ---
-name: "dinero-linux-0.12"
+name: "dinero-linux-1.0"
 enable_cache: true
 suites:
 - "trusty"

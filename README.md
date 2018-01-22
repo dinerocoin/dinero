@@ -1,4 +1,4 @@
-Dinero Core staging tree 0.12.2
+Dinero Core staging tree 1.0.0.1
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/dinerocoin/dinero.svg?branch=master)](https://travis-ci.org/dinerocoin/dinero) `develop:` [![Build Status](https://travis-ci.org/dinerocoin/dinero.svg?branch=develop)](https://travis-ci.org/dinerocoin/dinero/branches)
@@ -9,7 +9,7 @@ https://www.dinerocoin.org
 What is Dinero?
 ----------------
 
-Dinero is an experimental new digital currency that enables anonymous, instant
+Dinero is a new digital currency, based on Bitcoin and Dash, that enables anonymous, instant
 payments to anyone, anywhere in the world. Dinero uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
 are carried out collectively by the network. Dinero Core is the name of the open

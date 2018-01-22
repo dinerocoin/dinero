@@ -92,7 +92,7 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("DINERO-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("Default"), QVariant("default"));
     
     /* Language selector */
     QDir translations(":translations");
