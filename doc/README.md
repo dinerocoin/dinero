@@ -22,13 +22,6 @@ Unpack the files into a directory, and then run dinero-qt.exe.
 
 Drag Dinero-Qt to your applications folder, and then run Dinero-Qt.
 
-### Need Help?
-
-* See the [Dinero documentation](https://dinerocoin.atlassian.net/wiki/display/DOC)
-for help and more information.
-* Ask for help on [#dinerocoin](http://webchat.freenode.net?channels=dinerocoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dinerocoin).
-* Ask for help on the [DineroTalk](https://dinerotalk.org/) forums.
-
 Building
 ---------------------
 The following are developer notes on how to build Dinero Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
@@ -55,10 +48,6 @@ The Dinero Core repo's [root README](/README.md) contains relevant information o
 - [Shared Libraries](shared-libraries.md)
 - [BIPS](bips.md)
 - [Dnsseed Policy](dnsseed-policy.md)
-
-### Resources
-* Discuss on the [DineroTalk](https://dinerotalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#dinerocoin](http://webchat.freenode.net/?channels=dinerocoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dinerocoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
