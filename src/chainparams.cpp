@@ -119,11 +119,11 @@ public:
 
         // The best chain should have at least this much work.
         //consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000100a308553b4863b755"); // 782700
-        consensus.nMinimumChainWork = uint256S("0x00"); //FXX
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000b000b0"); //FXX
 
         // By default assume that the signatures in ancestors of this block are valid.
         //consensus.defaultAssumeValid = uint256S("0x000000000000001c172f518793c3b9e83f202284615592f87fe3506ce964dcd4"); // 782700
-        consensus.defaultAssumeValid = uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589"); // FXX
+        consensus.defaultAssumeValid = uint256S("0x00000de65209026fb9bded32f3204fd5447acf8be7060d5db1c9da1a29c8f70b"); // 10
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -156,13 +156,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589"));
         assert(genesis.hashMerkleRoot == uint256S("0x07aed85c2fb7ad6855aca4a9822fe50c112811be3bfc79114beb0145a80b90f1"));
 
-        vSeeds.push_back(CDNSSeedData("51.15.212.144", "51.15.212.144"));
-        vSeeds.push_back(CDNSSeedData("51.15.213.121", "51.15.213.121"));
-
-        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed1.dinerocoin.org"));
-        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed2.dinerocoin.org"));
-        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed3.dinerocoin.org"));
-        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed4.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed1.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed2.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed3.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed4.dinerocoin.org"));
 
         // Dinero addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
@@ -180,7 +177,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = false; /fxx
+        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
@@ -192,17 +189,16 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-        //    (  0, uint256S("0x000006d15775494def4a8766e838ff9c0677fee1079102198e1459c98b869d1f"))
-        //    (  4991, uint256S("0x000000003b01809551952460744d5dbb8fcbd6cbae3c220267bf7fa43f837367"))
-        //    (  9918, uint256S("0x00000000213e229f332c0ffbe34defdaa9e74de87f2d8d1f01af8d121c3c170b"))
-            (  0, uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589")),
-            1516830940, // * UNIX timestamp of last checkpoint block
-            0,    // * total number of transactions between genesis and last checkpoint
+            (  0, uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589"))
+            (  10, uint256S("0x00000de65209026fb9bded32f3204fd5447acf8be7060d5db1c9da1a29c8f70b")),
+            1516917924, // * UNIX timestamp of last checkpoint block
+            10,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500        // * estimated number of transactions per day after checkpoint
         };
     }
 };
+
 static CMainParams mainParams;
 
 /**
