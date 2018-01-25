@@ -52,7 +52,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Ballistic missile warning sent in error by Hawaii authorities";
+    const char* pszTimestamp = "Mnuchin backs weaker dollar in break with tradition";
     const CScript genesisOutputScript = CScript() << ParseHex("04f62f88d1dd887ec446bc521fd5b8e935f78ea9bbbc5156d522f0b787310a55d9449fc0399532ac91af9bd4f90c20f632de5fafae5a06e60e508380884f6a807a") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -91,14 +91,14 @@ public:
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x000005d6deca675d37df116198ac5dc1053e381711bbd9fba27b4fd458e3e29d");
+        consensus.BIP34Hash = uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000"); //FXX
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Dinero: 1 day
+        consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 1.5 * 60; // Dinero: 1.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
-        consensus.nPowKGWHeight = 15200;
-        consensus.nPowDGWHeight = 34140;
+        consensus.nPowKGWHeight = 100;
+        consensus.nPowDGWHeight = 200;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
         consensus.nMinerConfirmationWindow = 2016; // nPowTargetTimespan / nPowTargetSpacing
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
@@ -123,16 +123,16 @@ public:
 
         // By default assume that the signatures in ancestors of this block are valid.
         //consensus.defaultAssumeValid = uint256S("0x000000000000001c172f518793c3b9e83f202284615592f87fe3506ce964dcd4"); // 782700
-        consensus.defaultAssumeValid = uint256S("0x000005d6deca675d37df116198ac5dc1053e381711bbd9fba27b4fd458e3e29d"); // FXX
+        consensus.defaultAssumeValid = uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589"); // FXX
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x88;
-        pchMessageStart[1] = 0xb4;
-        pchMessageStart[2] = 0xf1;
+        pchMessageStart[0] = 0x48;
+        pchMessageStart[1] = 0xb3;
+        pchMessageStart[2] = 0xf2;
         pchMessageStart[3] = 0x21;
         vAlertPubKey = ParseHex("0428afa3a0023803d312ef8082b1687bb79e54ca05b77b0c14d10158e760d2b8a186b590bc2041fe135d18e5f89274580d9e18d5275f9dc00a5f3c2181eec14b70");
         nDefaultPort = 26285;
@@ -143,23 +143,26 @@ public:
         /**
         *Dinero MainNet
         *algorithm: neoscrypt
-        *Genesis nTime = 1515948000
-        *Genesis nNonce = 6685404
+        *Genesis nTime = 1516830940
+        *Genesis nNonce = 531473
         *Genesis nBits: 1e0ffff0
-        *Genesis Hash = 000005d6deca675d37df116198ac5dc1053e381711bbd9fba27b4fd458e3e29d
-        *Genesis Hash Merkle Root = 26247c7947befd2b736d62a8d131a2f8ee22705522628a3bb484601145fe230f
+        *Genesis Hash = 000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589
+        *Genesis Hash Merkle Root = 07aed85c2fb7ad6855aca4a9822fe50c112811be3bfc79114beb0145a80b90f1
         */
 
-        genesis = CreateGenesisBlock(1515948000, 6685404, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1516830940, 531473, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        assert(consensus.hashGenesisBlock == uint256S("0x000005d6deca675d37df116198ac5dc1053e381711bbd9fba27b4fd458e3e29d"));
-        assert(genesis.hashMerkleRoot == uint256S("0x26247c7947befd2b736d62a8d131a2f8ee22705522628a3bb484601145fe230f"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589"));
+        assert(genesis.hashMerkleRoot == uint256S("0x07aed85c2fb7ad6855aca4a9822fe50c112811be3bfc79114beb0145a80b90f1"));
 
-        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed1.dinerocoin.org"));
-        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed2.dinerocoin.org"));
-        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed3.dinerocoin.org"));
-        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed4.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("51.15.212.144", "51.15.212.144"));
+        vSeeds.push_back(CDNSSeedData("51.15.213.121", "51.15.213.121"));
+
+        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed1.dinerocoin.org"));
+        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed2.dinerocoin.org"));
+        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed3.dinerocoin.org"));
+        //vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed4.dinerocoin.org"));
 
         // Dinero addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
@@ -177,7 +180,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = true; //fxx
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
@@ -192,8 +195,8 @@ public:
         //    (  0, uint256S("0x000006d15775494def4a8766e838ff9c0677fee1079102198e1459c98b869d1f"))
         //    (  4991, uint256S("0x000000003b01809551952460744d5dbb8fcbd6cbae3c220267bf7fa43f837367"))
         //    (  9918, uint256S("0x00000000213e229f332c0ffbe34defdaa9e74de87f2d8d1f01af8d121c3c170b"))
-            (  0, uint256S("0x000005d6deca675d37df116198ac5dc1053e381711bbd9fba27b4fd458e3e29d")),
-            1515948000, // * UNIX timestamp of last checkpoint block
+            (  0, uint256S("0x000009110a70cd2bf2cdcae9a8b1425bb074c7b7b08570c2c9f04fe8668c6589")),
+            1516830940, // * UNIX timestamp of last checkpoint block
             0,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500        // * estimated number of transactions per day after checkpoint
@@ -227,7 +230,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 75;
         consensus.nMajorityWindow = 100;
         consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("0x00000b02f28c62447431bacd907638546864e3aab1d3eb8a7a88a67a4144b515");
+        consensus.BIP34Hash = uint256S("0x000008a8a0d4d1490b99bc94122b023c72e8adf4adac2f00bc4d5344eb4548d7");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Dinero: 1 day
         consensus.nPowTargetSpacing = 1.5 * 60; // Dinero: 90 seconds
@@ -259,7 +262,7 @@ public:
 
         // By default assume that the signatures in ancestors of this block are valid.
         //consensus.defaultAssumeValid = uint256S("0x0000000004f5aef732d572ff514af99a995702c92e4452c7af10858231668b1f"); // 37900
-        consensus.defaultAssumeValid = uint256S("0x00000b02f28c62447431bacd907638546864e3aab1d3eb8a7a88a67a4144b515"); // 37900
+        consensus.defaultAssumeValid = uint256S("0x000008a8a0d4d1490b99bc94122b023c72e8adf4adac2f00bc4d5344eb4548d7"); // 37900
 
         pchMessageStart[0] = 0xc9;
         pchMessageStart[1] = 0xf2;
@@ -272,17 +275,17 @@ public:
         nPruneAfterHeight = 1000;
 
         /**
-        *Genesis nTime = 1515948500
-        *Genesis nNonce = 2885562
+        *Genesis nTime = 1516831861
+        *Genesis nNonce = 110688
         *Genesis nBits: 1e0ffff0
-        *Genesis Hash = 00000b02f28c62447431bacd907638546864e3aab1d3eb8a7a88a67a4144b515
-        *Genesis Hash Merkle Root = 26247c7947befd2b736d62a8d131a2f8ee22705522628a3bb484601145fe230f
+        *Genesis Hash = 000008a8a0d4d1490b99bc94122b023c72e8adf4adac2f00bc4d5344eb4548d7
+        *Genesis Hash Merkle Root = 07aed85c2fb7ad6855aca4a9822fe50c112811be3bfc79114beb0145a80b90f1
         */
 
-        genesis = CreateGenesisBlock(1515948500UL, 2885562UL, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1516831861UL, 110688UL, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000b02f28c62447431bacd907638546864e3aab1d3eb8a7a88a67a4144b515"));
-        assert(genesis.hashMerkleRoot == uint256S("0x26247c7947befd2b736d62a8d131a2f8ee22705522628a3bb484601145fe230f"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000008a8a0d4d1490b99bc94122b023c72e8adf4adac2f00bc4d5344eb4548d7"));
+        assert(genesis.hashMerkleRoot == uint256S("0x07aed85c2fb7ad6855aca4a9822fe50c112811be3bfc79114beb0145a80b90f1"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -317,11 +320,11 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x00000b02f28c62447431bacd907638546864e3aab1d3eb8a7a88a67a4144b515")),
+            (    0, uint256S("0x000008a8a0d4d1490b99bc94122b023c72e8adf4adac2f00bc4d5344eb4548d7")),
             //(   1999, uint256S("0x00000052e538d27fa53693efe6fb6892a0c1d26c0235f599171c48a3cce553b1"))
             //(   2999, uint256S("0x0000024bc3f4f4cb30d29827c13d921ad77d2c6072e586c7f60d83c2722cdcc5")),
 
-            1515948500, // * UNIX timestamp of last checkpoint block
+            1516831861, // * UNIX timestamp of last checkpoint block
             0,       // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500         // * estimated number of transactions per day after checkpoint
