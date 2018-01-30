@@ -86,7 +86,7 @@ using it, please follow one of the guides and setup a remote masternode instead.
 Dropping old (pre-12.2) peers
 -----------------------------
 
-Connections from peers with protocol lower than 70208 are no longer accepted.
+Connections from peers with protocol lower than 70209 are no longer accepted.
 
 Other improvements and bug fixes
 --------------------------------
@@ -173,7 +173,7 @@ See detailed [change log](https://github.com/dinerocoin/dinero/compare/v0.12.2.1
 ### Network/Sync:
 - [`5d58dd90c`](https://github.com/dinerocoin/dinero/commit/5d58dd90c) Make sure to clear setAskFor in Dinero submodules (#1730)
 - [`328009749`](https://github.com/dinerocoin/dinero/commit/328009749) fine-tune sync conditions in getblocktemplate (#1739)
-- [`362becbcc`](https://github.com/dinerocoin/dinero/commit/362becbcc) Bump MIN_PEER_PROTO_VERSION to 70208 (#1772)
+- [`362becbcc`](https://github.com/dinerocoin/dinero/commit/362becbcc) Bump MIN_PEER_PROTO_VERSION to 70209 (#1772)
 - [`930afd7df`](https://github.com/dinerocoin/dinero/commit/930afd7df) Fix mnp and mnv invs (#1775)
 - [`63e306148`](https://github.com/dinerocoin/dinero/commit/63e306148) Improve sync (#1779)
 - [`a79c97248`](https://github.com/dinerocoin/dinero/commit/a79c97248) Fix ProcessVerifyBroadcast (#1780)
