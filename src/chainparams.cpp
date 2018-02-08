@@ -200,10 +200,11 @@ public:
             (  4046, uint256S("0x00000000027d296226b0ee7e35ad4e7c3eaafe2bff475bc59fddb80852cdc8a4"))
             (  5745, uint256S("0x000000000056b16f8b464f235bca3ec4455674ba73cb95538f5318b141e393d4"))
             (  8000, uint256S("0x0000000000d4a3199abcdf33cbaa6c1af2e145bda07ebdf29b070d0265cdc120"))
-            (  11500, uint256S("0x000000000074a6869637495962c1a37e0a2c20bb00bf1384227a0dc715b0813c")),
+            (  11500, uint256S("0x000000000074a6869637495962c1a37e0a2c20bb00bf1384227a0dc715b0813c"))
+            (  12350, uint256S("0x0000000000882760711b236c7ccdbf033b57e0b27b3dea10eb6fe4556cf63d31")),
 
-            1518029416, // * UNIX timestamp of last checkpoint block
-            34500,    // * total number of transactions between genesis and last checkpoint
+            1518110893, // * UNIX timestamp of last checkpoint block
+            36500,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             2200        // * estimated number of transactions per day after checkpoint
         };
@@ -264,11 +265,11 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 50; // 50% of 100
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000178310aa8261a5"); //11500
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000019a28804a64c4d"); //12350
 
         // By default assume that the signatures in ancestors of this block are valid.
         //consensus.defaultAssumeValid = uint256S("0x0000000004f5aef732d572ff514af99a995702c92e4452c7af10858231668b1f"); // 37900
-        consensus.defaultAssumeValid = uint256S("0x000000000074a6869637495962c1a37e0a2c20bb00bf1384227a0dc715b0813c"); // 11500
+        consensus.defaultAssumeValid = uint256S("0x0000000000882760711b236c7ccdbf033b57e0b27b3dea10eb6fe4556cf63d31"); // 12350
 
         pchMessageStart[0] = 0xc9;
         pchMessageStart[1] = 0xf2;
