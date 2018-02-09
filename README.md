@@ -1,4 +1,4 @@
-Dinero Core staging tree 1.0.0.4
+Dinero Core staging tree 1.0.0.5
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/dinerocoin/dinero.svg?branch=master)](https://travis-ci.org/dinerocoin/dinero) `develop:` [![Build Status](https://travis-ci.org/dinerocoin/dinero.svg?branch=develop)](https://travis-ci.org/dinerocoin/dinero/branches)
