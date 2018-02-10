@@ -158,6 +158,10 @@ public:
         vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed2.dinerocoin.org"));
         vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed3.dinerocoin.org"));
         vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed4.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed5.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed6.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed7.dinerocoin.org"));
+        vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed8.dinerocoin.org"));
 
         // Dinero addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
