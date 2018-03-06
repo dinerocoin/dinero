@@ -1,4 +1,4 @@
-Dinero Core 0.12.1
+Dinero Core 1.0.1.0
 =====================
 
 Intro
