@@ -1,7 +1,7 @@
-Dinero Core 0.12.1
+Dinero Core 1.0.X.X
 =====================
 
-This is the official reference wallet for Dinero digital currency and comprises the backbone of the Dinero peer-to-peer network. You can [download Dinero Core](https://www.dinerocoin.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Dinero digital currency and comprises the backbone of the Dinero peer-to-peer network. You can [download Dinero Core](https://www.dinerocoin.org/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
