@@ -118,10 +118,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000002df95bef9048bc"); //35000
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000004c2d03b2b76f15"); //110000
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00000000063721e5ee07a09fe6fd73e76b4201728260dad77b5a8c4b8828c786"); // 35000
+        consensus.defaultAssumeValid = uint256S("0x000000000b9279705a5dce77ff833da59ea84a0af235a76f1c4a2dcd972177f2"); // 110000
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -208,10 +208,11 @@ public:
             (  12350, uint256S("0x0000000000882760711b236c7ccdbf033b57e0b27b3dea10eb6fe4556cf63d31"))
             (  13400, uint256S("0x0000000001195f13e59033f4ee78521254bef3e3bf6a053a5662edba39c26632"))
             (  18800, uint256S("0x0000000000680ef8b1222f64263e04a1c92c1bc7abf6d2c8e11e5325811288cf"))
-            (  35000, uint256S("0x00000000063721e5ee07a09fe6fd73e76b4201728260dad77b5a8c4b8828c786")),
+            (  35000, uint256S("0x00000000063721e5ee07a09fe6fd73e76b4201728260dad77b5a8c4b8828c786"))
+            (  110000, uint256S("0x000000000b9279705a5dce77ff833da59ea84a0af235a76f1c4a2dcd972177f2")),
 
-            1520257736, // * UNIX timestamp of last checkpoint block
-            41400,    // * total number of transactions between genesis and last checkpoint
+            1527371364, // * UNIX timestamp of last checkpoint block
+            110000,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             2200        // * estimated number of transactions per day after checkpoint
         };
