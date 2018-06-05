@@ -163,7 +163,7 @@ public:
         vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed7.dinerocoin.org"));
         vSeeds.push_back(CDNSSeedData("dinerocoin.org", "seed8.dinerocoin.org"));
 
-        // Dinero addresses start with 'R'
+        // Dinero addresses start with 'D'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
         // Dinero script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,13);
@@ -245,7 +245,7 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 51;
         consensus.nMajorityRejectBlockOutdated = 75;
         consensus.nMajorityWindow = 100;
-        consensus.BIP34Height = 1;
+        consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x000008a8a0d4d1490b99bc94122b023c72e8adf4adac2f00bc4d5344eb4548d7");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Dinero: 1 day
@@ -273,7 +273,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 50; // 50% of 100
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000019a28804a64c4d"); //12350
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100000"); //12350
 
         // By default assume that the signatures in ancestors of this block are valid.
         //consensus.defaultAssumeValid = uint256S("0x0000000004f5aef732d572ff514af99a995702c92e4452c7af10858231668b1f"); // 37900
@@ -342,7 +342,7 @@ public:
             1516831861, // * UNIX timestamp of last checkpoint block
             0,       // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            500         // * estimated number of transactions per day after checkpoint
+            1         // * estimated number of transactions per day after checkpoint
         };
 
     }
