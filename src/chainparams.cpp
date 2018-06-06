@@ -273,12 +273,12 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 50; // 50% of 100
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100000"); //12350
+        consensus.nMinimumChainWork = uint256S("0x00"); 
 
         // By default assume that the signatures in ancestors of this block are valid.
-        //consensus.defaultAssumeValid = uint256S("0x0000000004f5aef732d572ff514af99a995702c92e4452c7af10858231668b1f"); // 37900
-        consensus.defaultAssumeValid = uint256S("0x0000000000882760711b236c7ccdbf033b57e0b27b3dea10eb6fe4556cf63d31"); // 12350
-
+       
+        consensus.defaultAssumeValid = uint256S("0x00"); // 
+        
         pchMessageStart[0] = 0xc9;
         pchMessageStart[1] = 0xf2;
         pchMessageStart[2] = 0xcb;
@@ -323,10 +323,10 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
-        fMineBlocksOnDemand = false;
+        fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 3;
